@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+}
+body, html {
+    height: 100%;
+  }
+#background{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(images/Space.png);
+    position: fixed;
+}
+.head{
+    text-align: center;
+    color:white ;
+    position: relative;
+    font-size: 350%;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+#ones{
+    position: relative;
+    left: 800px;
+    top: 87px;
+    padding: 5px 30px;
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  animation: rainbow 5s infinite;
+}
+#ones:active {
+  background-color: #3e8e41;
+  animation: rainbow 5s infinite;
+  transform: translateY(4px);
+}
+#thing{
+    position: relative; 
+    left: 800px;
+    top: 84px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    width: 205px;
+}
+.answer{
+    color:white;
+    font-size: 18px;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 202px;
+    position: fixed;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+#twos{
+    position: relative;
+    left: 800px;
+    top: 400px;
+    padding: 5px 30px;
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  animation: rainbow 5s infinite;
+
+}
+#twos:active {
+  background-color: #3e8e41;
+  animation: rainbow 5s infinite;
+  transform: translateY(4px);
+}
+#thingTwo{
+    position: relative; 
+    left: 800px;
+    top: 397px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px;
+    width: 210px;
+}
+.answerTwo{
+    color:white;
+    font-size: 18px;
+    background-color:rgba(0, 0, 0, 0.5);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    position: relative;
+    text-align: center;
+    top: 580px;
+    margin-left: 160px;
+    margin-right: 160px;
+    position: fixed;
+    
+}
+
+div {
+    width: 150px;
+    height: 78px;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    position: fixed;
+    top: 89.29%;
+    transition:ease-in-out 1s;
+    animation-name: rainbowTwo;
+    animation: rainbowTwo 20s infinite;
+  }
+  @keyframes rainbow{
+    0%   {background-color:rgba(0, 0, 0, 0.5);}
+    25%  {background-color:rgba(0, 0, 255, 0.5)}
+    50%  {background-color:rgba(137, 43, 226, 0.5);}
+    75%  {background-color:rgba(128, 0, 128, 0.5);}
+    100% {background-color:rgba(0, 0, 0, 0.5); }
+  }
+  @keyframes rainbowTwo{
+    0%   {background-color:rgba(0, 0, 0, 0.5);left:8px; top:91.5%;}
+    25%  {background-color:rgba(0, 0, 255, 0.5);left:92%; top:91.5%;}
+    50%  {background-color:rgba(137, 43, 226, 0.5);left:92%; top:8%;}
+    75%  {background-color:rgba(128, 0, 128, 0.5);left:8px; top:8%;}
+    100% {background-color:rgba(0, 0, 0, 0.5); left:8px; top:91.5%;}
+  }
+  @keyframes rainbowclear{
+    100%   {background-color:rgba(0, 0, 0, 0.5);}
+    75%  {background-color:rgba(0, 0, 255, 0.5)}
+    50%  {background-color:rgba(137, 43, 226, 0.5);}
+    25%  {background-color:rgba(128, 0, 128, 0.5);}
+    0% {background-color:rgba(0, 0, 0, 0.5); }
+  }
+#clearzwei{
+  position: relative;
+  left: 799px;
+  top: 400px;
+  padding: 5px 30px;
+font-size: 24px;
+font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #fff;
+border: none;
+border-radius: 15px;
+animation: rainbowclear 5s infinite;
+}
+#clear{
+  position: relative;
+    left: 800px;
+    top: 87px;
+    padding: 5px 30px;
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  animation: rainbowclear 5s infinite;
+}
